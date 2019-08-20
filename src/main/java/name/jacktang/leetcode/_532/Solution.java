@@ -14,7 +14,7 @@ public class Solution {
 			}
 		}
 		int ret = 0;
-		if (k == 1) {
+		if (k == 0) {
 			for (int count : numCountMap.values()) {
 				if (count > 1) {
 					ret++;
